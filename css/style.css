@@ -1,0 +1,53 @@
+body {
+  margin: 2rem;
+}
+
+main {
+  max-width: 98%;
+}
+
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  background-color: #4caf50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+.flex {
+  display: flex;
+}
+.cadastro_produtos {
+  flex-flow: row wrap;
+  gap: 20px;
+}
+
+.cadastro_produtos_btn_enviar {
+  margin-top: 2rem;
+}
+
+@media only screen and (max-width: 462px) {
+  .cadastro_produtos {
+    display: block;
+  }
+  .full-width {
+    width: 98%;
+  }
+}
